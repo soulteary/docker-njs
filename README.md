@@ -59,18 +59,18 @@ $ docker run -it --rm --name my-running-script -v "$PWD":/app njs:0.5.0 /app/you
 
 The njs images come in many flavors, each designed for a specific use case.
 
-### njs:<version>
+### njs:\<version\>
 
 Strip njs from the nginx offical docker image and re-use debian for packaging and building.
 
-### njs:<version>-alpine
+### njs:\<version\>-alpine
 
 This image is based on the popular Alpine Linux project, available in the alpine official image. Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
 
-### njs:<version>-slim
+### njs:\<version\>-slim
 
 Compressed debian image.
 
-### njs:<version>-alpine-slim
+### njs:\<version\>-alpine-slim
 
 Compressed alpine image.
