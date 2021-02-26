@@ -6,21 +6,23 @@ Pure njs(Nginx JavaScript) Docker image, more convenient for development and deb
 
 Supported tags and respective [Dockerfile links](https://github.com/soulteary/docker-njs/blob/main/Dockerfile)
 
+### NJS 0.5.1 (Nginx 1.19.7+)
+
+- Tag List: 0.5.1-alpine-slim / 0.5.1-alpine / 0.5.1-slim / 0.5.1
+- [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.1-alpine/.env)
+
 ### NJS 0.5.0 (Nginx 1.19.6+)
 
 - Tag List: 0.5.0-alpine-slim / 0.5.0-alpine / 0.5.0-slim / 0.5.0
-- [Env File](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.0/.env)
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.0-alpine/.env)
 
 ### NJS 0.4.4 (Nginx 1.17.10 ~ 1.19.5)
 
 - Tag List: 0.4.4-alpine-slim / 0.4.4-alpine / 0.4.4-slim / 0.4.4
-- [Env File](https://github.com/soulteary/docker-njs/blob/main/njs/0.4.4/.env)
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.4.4-alpine/.env)
 ### NJS 0.3.9 (Nginx 1.17.10-)
 
 - Tag List: 0.3.9-alpine-slim / 0.3.9-alpine / 0.3.9-slim / 0.3.9
-- [Env File](https://github.com/soulteary/docker-njs/blob/main/njs/0.3.9/.env)
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.3.9-alpine/.env)
 
 ## What is nginx/njs ?
@@ -59,18 +61,12 @@ $ docker run -it --rm --name my-running-script -v "$PWD":/app njs:0.5.0 /app/you
 
 The njs images come in many flavors, each designed for a specific use case.
 
-### njs:\<version\>
+### njs:\<version\> / njs:\<version\>-alpine
 
-Strip njs from the nginx offical docker image and re-use debian for packaging and building.
-
-### njs:\<version\>-alpine
+> Strip njs from the nginx offical docker alpine image and re-use alpine system for packaging and building.
 
 This image is based on the popular Alpine Linux project, available in the alpine official image. Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
 
-### njs:\<version\>-slim
-
-Compressed debian image.
-
-### njs:\<version\>-alpine-slim
+### njs:\<version\>-alpine-slim / njs:\<version\>-slim
 
 Compressed alpine image.
