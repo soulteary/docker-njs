@@ -6,22 +6,22 @@ Pure njs(Nginx JavaScript) Docker image, more convenient for development and deb
 
 Supported tags and respective [Dockerfile links](https://github.com/soulteary/docker-njs/blob/main/Dockerfile)
 
-### NJS 0.5.3 (Nginx 1.19.9+)
+### NJS 0.5.3 (Nginx 1.19.9 ~ 1.21.0+)
 
 - Tag List: 0.5.3-alpine-slim / 0.5.3-alpine / 0.5.3-slim / 0.5.3
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.3-alpine/.env)
 
-### NJS 0.5.2 (Nginx 1.19.8+)
+### NJS 0.5.2 (Nginx 1.19.8)
 
 - Tag List: 0.5.2-alpine-slim / 0.5.2-alpine / 0.5.2-slim / 0.5.2
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.2-alpine/.env)
 
-### NJS 0.5.1 (Nginx 1.19.7+)
+### NJS 0.5.1 (Nginx 1.19.7)
 
 - Tag List: 0.5.1-alpine-slim / 0.5.1-alpine / 0.5.1-slim / 0.5.1
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.1-alpine/.env)
 
-### NJS 0.5.0 (Nginx 1.19.6+)
+### NJS 0.5.0 (Nginx 1.19.6)
 
 - Tag List: 0.5.0-alpine-slim / 0.5.0-alpine / 0.5.0-slim / 0.5.0
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.0-alpine/.env)
