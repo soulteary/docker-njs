@@ -8,7 +8,7 @@ Supported tags and respective [Dockerfile links](https://github.com/soulteary/do
 
 ### NJS 0.5.3 (Nginx 1.19.9 ~ 1.21.0+)
 
-- Tag List: 0.5.3-alpine-slim / 0.5.3-alpine / 0.5.3-slim / 0.5.3
+- Tag List: 0.5.3-alpine / 0.5.3
 - [Env File - Alpine](https://github.com/soulteary/docker-njs/blob/main/njs/0.5.3-alpine/.env)
 
 ### NJS 0.5.2 (Nginx 1.19.8)
